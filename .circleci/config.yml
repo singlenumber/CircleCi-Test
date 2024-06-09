@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           command: |
-            poetry run pytest --version
+            poetry --version
           name: Test it
 workflows:
   main:
